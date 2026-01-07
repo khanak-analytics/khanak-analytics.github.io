@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khanak Arodia - Data Analyst Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+        header { background: #007acc; color: white; text-align: center; padding: 60px 20px; }
+        h1 { margin: 0; font-size: 2.5em; }
+        section { max-width: 900px; margin: 40px auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        img { max-width: 100%; border-radius: 8px; margin: 20px 0; }
+        a { color: #007acc; }
+        iframe { width: 100%; height: 600px; border: none; }
+    </style>
+</head>
+<body>
+    <header>
+         theme: jekyll-theme-minimal
+        <h1>Khanak Arodia</h1>
+        <p>HR Analyst | Power BI • SQL • Excel</p>
+        <p><a href="https://www.linkedin.com/in/khanakarodia/" style="color:white;">LinkedIn</a> | Khanakarodia05@gmail.com</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Passionate HR analyst with expertise in Power BI dashboards, data visualization, and deriving actionable insights. Eager to contribute to data-driven decisions.</p>
+    </section>
+
+<section>
+    <h2>Resume</h2>
+    <p>Download my full resume here:</p>
+    <a href="khanak-Arodia-IIM-Imm.Joiner.pdf" target="_blank" style="display:inline-block; padding:10px 20px; background:#007acc; color:white; text-decoration:none; border-radius:5px; font-weight:bold;">
+        Download Resume PDF
+    </a>
+
+    <!-- Optional: Embed a preview of the PDF (opens in browser) -->
+    <p>Or view it below:</p>
+    <iframe src="khanak-Arodia-IIM-Imm.Joiner.pdf" width="100%" height="800px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+</section>
+
+<section>
+    <h2>Power BI Projects</h2>
+    
+    <h3>HR Employee Attrition Dashboard</h3>
+    <p><strong>Project Overview:</strong> Interactive dashboard analyzing employee turnover patterns to help HR identify retention risks. Key metrics include attrition rate, breakdowns by department, age group, job role, salary slab, years at company, job satisfaction, and more. Built using Power BI with DAX measures for dynamic calculations.</p>
+    <p><strong>Tools:</strong> Power BI, DAX, Power Query</p>
+    <p><strong>Key Insights:</strong> [Add 2-3 bullet points from your dashboard, e.g., "Highest attrition in Sales & R&D departments", "Employees with low job satisfaction and longer years since promotion are more likely to leave"]</p>
+    
+    <!-- Live Interactive Embed (if you have Publish to Web) -->
+    <!-- <iframe width="100%" height="600" src="YOUR_EMBED_URL_HERE" frameborder="0" allowFullScreen="true"></iframe> -->
+    
+    <!-- Screenshots -->
+    <img src="attrition-overview.png" alt="Attrition Dashboard Overview">
+    <img src="attrition-by-dept.png" alt="Attrition by Department">
+    <img src="attrition-by-age.png" alt="Attrition by Age Group">
+    <img src="attrition-by-job role.png" alt="Attrition by Job Role">
+    <img src="attrition-by-employee count.png" alt="Attrition by employee count">
+    <!-- Add more as needed -->
+    
+    <!--Download PBIX -->
+    <p><a href="HR_Attrition_Dashboard.pbix" style="padding:10px 20px; background:#007acc; color:white; text-decoration:none; border-radius:5px; font-weight:bold;">Download .pbix File (Open in Power BI Desktop)</a></p>
+</section>
+    
+</body>
+</html>
